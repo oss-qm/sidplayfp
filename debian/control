@@ -1,0 +1,13 @@
+Source: sidplayfp
+Section: sound
+Priority: optional
+Maintainer: Enrico Weigelt, metux IT consult <info@metux.net>
+Build-Depends: debhelper (>=11~), pkg-config, libsidplayfp-dev, libstilview-dev
+Standards-Version: 4.7.2
+
+Package: sidplayfp
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: console SID/MUS player
+ sidplayfp is a console C64 music player which uses the libsidplayfp engine
+ to provide the best SID listening experience.
