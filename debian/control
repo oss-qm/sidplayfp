@@ -1,7 +1,7 @@
 Source: sidplayfp
 Section: sound
 Priority: optional
-Maintainer: Enrico Weigelt, metux IT consult <info@metux.net>
+Maintainer: Enrico Weigelt <info@metux.net>
 Build-Depends: debhelper (>=11~), pkg-config, libsidplayfp-dev, libstilview-dev
 Standards-Version: 4.7.2
 
